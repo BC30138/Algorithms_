@@ -19,6 +19,7 @@
                 "-Wshadow",
                 "-std=c++11",
                 "-fms-extensions",
+                "source/algorithms.cpp",
                 "source/source.cpp",
                 "-Isrc",
                 "-I/usr/local/include",
