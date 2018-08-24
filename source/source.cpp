@@ -1,10 +1,18 @@
 #include<iostream>
 
 #include"algorithms.h"
+
 using namespace std;
 
 int main()
 {
-    _algorithms test;
-    cout << test.gcd(27, 15) << endl;
+    linklist<int> list;   
+    list.push_back(5);
+    list.push_back(6);
+    list.show();
+
+    int a = 5;
+    int *p;
+    p = &a;
+    cout << *p << "\t" << a << endl;
 }
